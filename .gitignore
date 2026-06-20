@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model weights and checkpoints (large files)
+checkpoints/
+*.pth
+*.ckpt
+*.safetensors
+
+# Datasets
+data/
+
+# Cache and precomputed features
+cache/
+cache_gram/
+cache_gram_noise/
+wikiart_stats/
+
+# Outputs and temporary results
+outputs/
+demo/
+example/
+example2/
+example_fm/
+example_fm_gram/
+colorandtex/
+compare_100_*/
+fid_eval/
+fm_benchmark/
+fm_benchmark_by_style_gram/
+lambda_grid/
+param_grid/
+step_grid/
+method_compare/
+method_compare_new/
+transfer_single/
+textsp/
+eval_encoder/
+
+# Logs
+*.log
